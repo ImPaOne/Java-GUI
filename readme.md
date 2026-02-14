@@ -1,1 +1,1 @@
-hello, this is EAD01 Java-GUI.
+Hi, this is my readme file.
