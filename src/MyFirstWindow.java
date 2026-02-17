@@ -10,9 +10,16 @@ public class MyFirstWindow extends Frame
     private void setup()
     {
         setBackground (Color.DARK_GRAY);
-        setSize (200,200);
-        add(new Label("hello World"));
+        setSize (500,500);
+        setTitle("Hello");
+        add(new Label("hello World", Label.CENTER));
+
+        Button btn = new Button("Hello Button");
+        btn.setBounds(100, 100, 120, 40);
+        add(btn);
+
         setVisible(true);
+
     }
     public static void main (String [] args)
     {
